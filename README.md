@@ -1,4 +1,6 @@
-# React + TypeScript + Vite
+# Vite + React + Electron + TypeScript
+
+Setup to make a Cross platform app using React and Electron
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
@@ -51,6 +53,7 @@ export default tseslint.config({
 
 ## Installation commads
 
+```
 npm create vite@latest vite-electron-app
 mv vite-electron-app/\* .
 cat vite-electron-app/.gitignore >> .gitignore
@@ -62,10 +65,11 @@ npm install electron-packager --save-dev
 npm install electron-is-dev
 npm install --save-dev @electron-forge/cli
 npx electron-forge import
+```
 
-# Create a main.cjs
+## Create a main.cjs
 
-# Add following in each section in package.json
+## Add following in each section in package.json
 
 ```json
   "scripts": {
@@ -93,10 +97,14 @@ npx electron-forge import
 
 Rename forge.config.js to force.config.cjs
 
-# To laucnh dev server
+## To laucnh dev server
 
+```
 npm run vite-electron-start
+```
 
-# To build app
+## To build app
 
+```
 npm run build-forge
+```
