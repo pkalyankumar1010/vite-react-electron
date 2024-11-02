@@ -97,7 +97,7 @@ npx electron-forge import
 
 Rename forge.config.js to force.config.cjs
 
-## To laucnh dev server
+## To launch dev server
 
 ```
 npm run vite-electron-start
